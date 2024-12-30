@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Table</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="pricing-container">
+        <h1>Choose Your Plan</h1>
+        <div class="toggle">
+            <span>Monthly</span>
+            <label class="switch">
+                <input type="checkbox" id="pricingToggle">
+                <span class="slider round"></span>
+            </label>
+            <span>Yearly</span>
+        </div>
+        <div class="pricing-table">
+            <div class="plan">
+                <h2>Basic</h2>
+                <p class="price" data-monthly="9.99" data-yearly="99.99">$<span>9.99</span></p>
+                <ul>
+                    <li>1 User</li>
+                    <li>5GB Storage</li>
+                    <li>Basic Support</li>
+                </ul>
+                <button>Choose Plan</button>
+            </div>
+            <div class="plan recommended">
+                <h2>Pro</h2>
+                <p class="price" data-monthly="19.99" data-yearly="199.99">$<span>19.99</span></p>
+                <ul>
+                    <li>5 Users</li>
+                    <li>50GB Storage</li>
+                    <li>Priority Support</li>
+                    <li>Advanced Features</li>
+                </ul>
+                <button>Choose Plan</button>
+            </div>
+            <div class="plan">
+                <h2>Enterprise</h2>
+                <p class="price" data-monthly="49.99" data-yearly="499.99">$<span>49.99</span></p>
+                <ul>
+                    <li>Unlimited Users</li>
+                    <li>1TB Storage</li>
+                    <li>24/7 Support</li>
+                    <li>Custom Solutions</li>
+                </ul>
+                <button>Choose Plan</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
